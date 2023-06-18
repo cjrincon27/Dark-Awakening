@@ -12,7 +12,10 @@ public class FPSController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
+    
+    public float normalHeight, crouchHeight;
 
+    public CharacterController PlayerHeight;
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -70,6 +73,17 @@ public class FPSController : MonoBehaviour
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+        }
+        
+        // Player Crouching = El jugador se agacha
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            PlayerHeight.height = crouchHeight;
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            PlayerHeight.height = normalHeight;
         }
     }
 }
