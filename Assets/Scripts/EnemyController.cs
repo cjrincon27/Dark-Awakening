@@ -6,13 +6,13 @@ public class EnemyController : MonoBehaviour
 {
     public Transform[] waypoints;
     public Transform player;
-    public const float chaseSpeed = 2f;
-    public float chaseRotationSpeed = 5f;
-    public float detectionRange = 150f;
-    public float chaseRange = 80f;
+    private const float chaseSpeed = 4f;
+    private float chaseRotationSpeed = 5f;
+    private const float detectionRange = 50f;
+    private const float chaseRange = 12f;
 
-    public float patrolSpeed = 3f;
-    public float patrolArrivalDistance = 0.2f;
+    private float patrolSpeed = 3f;
+    private float patrolArrivalDistance = 0.2f;
 
     private int currentWaypointIndex = 0;
 
