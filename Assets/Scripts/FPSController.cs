@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [RequireComponent(typeof(CharacterController))]
 public class FPSController : MonoBehaviour
 {
@@ -12,9 +13,8 @@ public class FPSController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-    
     public float normalHeight, crouchHeight;
-
+   
     public CharacterController PlayerHeight;
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
@@ -26,7 +26,7 @@ public class FPSController : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-
+        
         // Lock cursor = Cursos bloqueado
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
