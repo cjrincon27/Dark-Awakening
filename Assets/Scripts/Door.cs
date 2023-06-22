@@ -7,6 +7,7 @@ public class Door : MonoBehaviour
     public GameObject intText;
     public bool interactable, toggle;
     public Animator doorAnim;
+    public AudioSource toggleSound;
 
     void OnTriggerStay(Collider other)
     {
@@ -31,6 +32,7 @@ public class Door : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 toggle = !toggle;
+                toggleSound.Play();
                 if(toggle == true)
                 {
                     doorAnim.ResetTrigger("close");

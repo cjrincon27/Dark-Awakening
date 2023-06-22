@@ -40,7 +40,7 @@ public class FlashLight : MonoBehaviour
             
         {
             toggle = !toggle;
-            //toggleSound.Play();
+            toggleSound.Play();
             if(toggle == false)
             {
                 light.SetActive(false);
@@ -57,7 +57,7 @@ public class FlashLight : MonoBehaviour
             
         {
             toggle = !toggle;
-            //toggleSound.Play();
+            toggleSound.Play();
             if(toggle == false)
             {
                 purplelight.SetActive(false);

@@ -36,7 +36,7 @@ public class LightSwitch : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 toggle = !toggle;
-                //lightSwitchSound.Play();
+                lightSwitchSound.Play();
                 switchAnim.ResetTrigger("press");
                 switchAnim.SetTrigger("press");
             }

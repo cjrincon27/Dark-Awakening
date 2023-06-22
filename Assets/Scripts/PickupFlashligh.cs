@@ -32,7 +32,7 @@ public class PickupFlashligh : MonoBehaviour
             {
                 inttext.SetActive(false);
                 interactable = false;
-                //pickup.Play();
+                pickup.Play();
                 flashlight_hand.SetActive(true);
                 flashlight_table.SetActive(false);
             }
