@@ -20,11 +20,12 @@ public class FPSController : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
 
-    [HideInInspector]
-    public bool canMove = true;
+    [HideInInspector] public bool canMove = true;
+    [HideInInspector] public StaminaController staminaController;
 
     void Start()
     {
+        staminaController = GetComponent<StaminaController>();
         characterController = GetComponent<CharacterController>();
         
         // Lock cursor = Cursos bloqueado
@@ -32,6 +33,11 @@ public class FPSController : MonoBehaviour
         Cursor.visible = false;
     }
 
+    public void SetRunSpeed(float speed)
+    {
+        runningSpeed = speed;
+        
+    }
     void Update()
     {
         // We are grounded, so recalculate move direction based on axes = Estamos en tierra, por lo que recalcular la dirección de movimiento basado en ejes
@@ -43,8 +49,26 @@ public class FPSController : MonoBehaviour
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
         float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
+        if (!isRunning)
+        {
+            staminaController.weAreSprinting = false;
+        }
+
+        if (isRunning && characterController.velocity.sqrMagnitude > 0)
+        {
+            if (staminaController.playerStamina > 0)
+            {
+                staminaController.weAreSprinting =true;
+                staminaController.Sprinting();
+            }
+            else
+            {
+                isRunning = true;
+            }
+        }
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
+        
 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
@@ -61,7 +85,14 @@ public class FPSController : MonoBehaviour
         if (!characterController.isGrounded)
         {
             moveDirection.y -= gravity * Time.deltaTime;
+
+            if (jumpSpeed != 0)
+            {
+                staminaController.StaminaJump();
+            }
         }
+        
+            
 
         // Move the controller = Mueve el controllador
         characterController.Move(moveDirection * Time.deltaTime);

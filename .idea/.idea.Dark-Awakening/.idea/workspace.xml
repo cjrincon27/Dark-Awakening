@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uxml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uxml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Phoenix3D/Materials/Outdoor_Wall_T16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Phoenix3D/Materials/Outdoor_Wall_T16.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rusty Flashlight/Prefabs/Flashlight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rusty Flashlight/Prefabs/Flashlight.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainCharacther.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainCharacther.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crouch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPSController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +95,8 @@
       <workItem from="1687185850932" duration="2318000" />
       <workItem from="1687227675794" duration="3000000" />
       <workItem from="1687271526177" duration="596000" />
+      <workItem from="1687409521980" duration="1117000" />
+      <workItem from="1687473502552" duration="13103000" />
     </task>
     <servers />
   </component>
