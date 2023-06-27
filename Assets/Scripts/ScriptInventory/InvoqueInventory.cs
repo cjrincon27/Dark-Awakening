@@ -4,18 +4,12 @@ using UnityEngine;
 using TMPro;
 
 public class InvoqueInventory : MonoBehaviour
-{
 
-    
+{
     private bool inventoryItems;
     public GameObject inventoryCanvas;
-    
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -35,17 +29,14 @@ public class InvoqueInventory : MonoBehaviour
             inventoryCanvas.SetActive(false);
 }
     }
+
     private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Item")
-        {
+
+    { if (other.tag == "Item") { 
+
             Destroy(other.gameObject);
-            
 
         }
-        
-           
-        
 
     }
 }

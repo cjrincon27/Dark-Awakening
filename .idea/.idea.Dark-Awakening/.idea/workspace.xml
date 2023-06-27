@@ -6,9 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Ch30_nonPBR@Running Crawl.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Ch30_nonPBR@Running Crawl.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/DoorClose.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/DoorClose.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Prefabs UI/book2048 (7).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs UI/book2048 (7).prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts-Enemy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts-Enemy/EnemyController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts-Enemy/EnemyController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInventory.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiaryInt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlashLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
@@ -99,7 +105,7 @@
       <workItem from="1687473502552" duration="13103000" />
       <workItem from="1687561591402" duration="2013000" />
       <workItem from="1687808938193" duration="1327000" />
-      <workItem from="1687876552536" duration="765000" />
+      <workItem from="1687876552536" duration="4779000" />
     </task>
     <servers />
   </component>
