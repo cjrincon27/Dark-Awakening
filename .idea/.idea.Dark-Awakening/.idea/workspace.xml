@@ -6,24 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorClose.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorClose.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorOpen.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorOpen.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Ch30_1001_Diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Ch30_1001_Diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Ch30_1002_Diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Ch30_1002_Diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Metal_Clips.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials/Metal_Clips.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Metalico.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials/Metalico.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Plastica.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials/Plastica.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Restraints.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials/Restraints.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Roda.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials/Roda.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Tecido.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials/Tecido.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/Wheelchair.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Materials/Wheelchair.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/parasiteZombie_body_diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/parasiteZombie_body_diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/parasiteZombie_diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Materials/parasiteZombie_diffuse.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Ch30_nonPBR@Running Crawl.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Ch30_nonPBR@Running Crawl.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +98,8 @@
       <workItem from="1687409521980" duration="1117000" />
       <workItem from="1687473502552" duration="13103000" />
       <workItem from="1687561591402" duration="2013000" />
+      <workItem from="1687808938193" duration="1327000" />
+      <workItem from="1687876552536" duration="765000" />
     </task>
     <servers />
   </component>
