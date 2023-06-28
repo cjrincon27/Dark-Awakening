@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CREDITS.unity
     guid: 5e56f3b651e765242b2dac9a95332516
   - enabled: 1
-    path: Assets/Scenes/MainCharacther.unity
-    guid: b351e72055c44dc4da0dd741ad57d06f
+    path: Assets/Scenes/MaincharacterCr.unity
+    guid: d0f909bbe826ce143985c2e57298c709
+  - enabled: 1
+    path: Assets/Scenes/GAMEOVER.unity
+    guid: 65fe91d48ea442f409fc24a9bcec5096
   m_configObjects: {}
