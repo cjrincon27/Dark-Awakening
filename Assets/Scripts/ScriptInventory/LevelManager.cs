@@ -38,8 +38,10 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    
-    
+    public void StartGame()
+    {
+        SceneManager.LoadScene(3);
+    }
 
 
 
