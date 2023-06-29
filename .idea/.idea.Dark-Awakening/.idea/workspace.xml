@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="" />
+    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Images/skull_person.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/skull_person.mp4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/video.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/video.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image_Sprite/icono.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image_Sprite/icono.png.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +103,7 @@
       <workItem from="1687561591402" duration="2013000" />
       <workItem from="1687808938193" duration="1327000" />
       <workItem from="1687876552536" duration="5473000" />
+      <workItem from="1688052727196" duration="621000" />
     </task>
     <servers />
   </component>
