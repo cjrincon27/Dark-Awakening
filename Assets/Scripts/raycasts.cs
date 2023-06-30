@@ -1,11 +1,10 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class raycasts : MonoBehaviour
 {
     [SerializeField] private LayerMask whatToDetect;
-    public GameObject linterna;
     public GameObject enemiesContainer;
     private Transform[] enemyTransforms;
     private Vector3[] originalPositions;
@@ -25,21 +24,18 @@ public class raycasts : MonoBehaviour
 
     void Update()
     {
-        if (!linterna.activeSelf)
-        {
-            return;
-        }
-
         float maxDistance = 10f;
         RaycastHit hit;
 
-        Ray ray = new Ray(linterna.transform.position, linterna.transform.forward);
+        Ray ray = new Ray(transform.position, transform.forward);
         Debug.DrawRay(ray.origin, ray.direction * 10f, Color.green);
         if (Physics.Raycast(ray, out hit, maxDistance, whatToDetect))
         {
+            Debug.Log(hit);
+
             foreach (Transform enemyTransform in enemyTransforms)
             {
-                if (linterna.activeSelf && hit.collider.gameObject == enemyTransform.gameObject)
+                if (hit.collider.gameObject == enemyTransform.gameObject)
                 {
                     StartCoroutine(DisappearAndAppear(enemyTransform));
                 }
@@ -54,7 +50,7 @@ public class raycasts : MonoBehaviour
 
         yield return new WaitForSeconds(5f);
 
-        // Activar el enemigo y restablecer su posición original
+        // Activar el enemigo y restablecer su posiciï¿½n original
         enemyTransform.gameObject.SetActive(true);
         int index = System.Array.IndexOf(enemyTransforms, enemyTransform);
         enemyTransform.position = originalPositions[index];
