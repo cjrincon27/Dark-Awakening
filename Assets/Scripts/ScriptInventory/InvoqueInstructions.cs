@@ -19,13 +19,13 @@ public class InvoqueInstructions : MonoBehaviour
         canvasInstructions.gameObject.SetActive(false);
         pauseCanvas.gameObject.SetActive(false);
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (canvasInstructionsActive)
@@ -37,6 +37,8 @@ public class InvoqueInstructions : MonoBehaviour
             {
                 canvasPause = !canvasPause;
             }
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
 
         pauseCanvas.gameObject.SetActive(canvasPause && !canvasInstructionsActive);
