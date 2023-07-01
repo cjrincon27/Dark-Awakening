@@ -9,10 +9,10 @@ public class DiaryInt : MonoBehaviour
 {
     public GameObject cinematicaCanvas;
     private bool cinematicaActive;
-    
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Diary")
+        if (other.tag == "Diary") 
         {
 
             Destroy(other.gameObject);
@@ -21,12 +21,15 @@ public class DiaryInt : MonoBehaviour
 
         {
             cinematicaCanvas.SetActive(true);
+        
+           
         }
 
 
         else
         {
             cinematicaCanvas.SetActive(false);
+            
 
         }
 
