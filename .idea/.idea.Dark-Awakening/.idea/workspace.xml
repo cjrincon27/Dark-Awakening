@@ -6,25 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/Door (1) 18.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/Door (1) 18.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17close.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door18open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door18open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Warzombie F Pedroso@Hanging Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Warzombie F Pedroso@Hanging Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blood decal pack/blood/Materials/blood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Blood decal pack/blood/Materials/blood.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blood decal pack/blood/prefab/hand_blood.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blood decal pack/blood/prefab/hand_blood.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Materials/hand_material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Materials/hand_material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/escurriendo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/escurriendo.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/mancha.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/mancha_brillante.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/mancha_brillante_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/pared.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/pared.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crouch.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crouch.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiaryInt.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiaryInt.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPSController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlashLight.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlashLight.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FootstepsSound.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FootstepsSound.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PickupFlashligh.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PickupFlashligh.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInstructions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInstructions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInventory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInventory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/LevelManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/LevelManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Slot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Slot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/items.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/items.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts-Enemy/Patrolling.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts-Enemy/Patrolling.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StaminaController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StaminaController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +127,8 @@
       <workItem from="1687876552536" duration="5473000" />
       <workItem from="1688052727196" duration="3567000" />
       <workItem from="1688136095258" duration="595000" />
-      <workItem from="1688153243638" duration="3784000" />
+      <workItem from="1688153243638" duration="7013000" />
+      <workItem from="1688194030386" duration="1104000" />
     </task>
     <servers />
   </component>

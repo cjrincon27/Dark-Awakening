@@ -15,7 +15,7 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
-        text0.GetComponent<Text>().enabled = false;
+        text0.GetComponent<TextMeshProUGUI>().enabled = false;
     }
 
     void OnTriggerEnter(Collider other)
@@ -24,14 +24,14 @@ public class Dialogue : MonoBehaviour
         {
             text0.GetComponent<TextMeshProUGUI>().enabled = true;
             text0.text = dialogue.ToString();
-            StartCoroutine(DisableText());  
+            StartCoroutine(DisableText());
         }
     }
 
-   IEnumerator DisableText()
-   {
-       yield return new WaitForSeconds(timer);
-       text0.GetComponent<TextMeshProUGUI>().enabled = false;
-       Destroy(Activator);
-   }
+    IEnumerator DisableText()
+    {
+        yield return new WaitForSeconds(timer);
+        text0.GetComponent<TextMeshProUGUI>().enabled = false;
+        Destroy(Activator);
+    }
 }
