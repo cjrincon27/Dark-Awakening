@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crouch.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crouch.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiaryInt.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiaryInt.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPSController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlashLight.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlashLight.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FootstepsSound.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FootstepsSound.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PickupFlashligh.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PickupFlashligh.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInstructions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInstructions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInventory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/InvoqueInventory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/LevelManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/LevelManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Slot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Slot.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/items.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/items.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts-Enemy/Patrolling.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts-Enemy/Patrolling.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StaminaController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StaminaController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +100,7 @@
       <workItem from="1688052727196" duration="3567000" />
       <workItem from="1688136095258" duration="595000" />
       <workItem from="1688153243638" duration="7013000" />
-      <workItem from="1688194030386" duration="1104000" />
+      <workItem from="1688194030386" duration="1106000" />
     </task>
     <servers />
   </component>
