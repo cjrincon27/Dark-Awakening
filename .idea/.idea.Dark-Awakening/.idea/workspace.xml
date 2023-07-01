@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="" />
+    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/Door (1) 18.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/Door (1) 18.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17close.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door17open.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door18open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door18open.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Warzombie F Pedroso@Hanging Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MonstersThings/Warzombie F Pedroso@Hanging Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blood decal pack/blood/Materials/blood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Blood decal pack/blood/Materials/blood.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blood decal pack/blood/prefab/hand_blood.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blood decal pack/blood/prefab/hand_blood.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Materials/hand_material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Materials/hand_material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/escurriendo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/escurriendo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/mancha.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/mancha_brillante.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/mancha_brillante_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/pared.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/pared.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiaryInt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlashLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpScare.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2RMdMk3ExJsZb4ouuN5y3Ad2dJQ" />
@@ -96,7 +118,9 @@
       <workItem from="1687561591402" duration="2013000" />
       <workItem from="1687808938193" duration="1327000" />
       <workItem from="1687876552536" duration="5473000" />
-      <workItem from="1688052727196" duration="1578000" />
+      <workItem from="1688052727196" duration="3567000" />
+      <workItem from="1688136095258" duration="595000" />
+      <workItem from="1688153243638" duration="3784000" />
     </task>
     <servers />
   </component>
