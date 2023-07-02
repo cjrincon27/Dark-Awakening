@@ -5,16 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/JohnFarmer/Keyboard Keys &amp; Mouse Sprites/Sprites/KeyboardKeys&amp;Mouse/WhiteVariant/O.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JohnFarmer/Keyboard Keys &amp; Mouse Sprites/Sprites/KeyboardKeys&amp;Mouse/WhiteVariant/O.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JohnFarmer/Keyboard Keys &amp; Mouse Sprites/Sprites/KeyboardKeys&amp;Mouse/WhiteVariant/P.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JohnFarmer/Keyboard Keys &amp; Mouse Sprites/Sprites/KeyboardKeys&amp;Mouse/WhiteVariant/P.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CinematicaDoor.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CinematicaDoor.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CinematicaSould.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CinematicaSould.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/SoundButtons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/SoundButtons.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/dark_awakening_voice_husky.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/dark_awakening_voice_husky.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/soundButtons.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/soundButtons.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/image_Sprite/Cinematicas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/image_Sprite/Cinematicas/cinematica_1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/image_Sprite/Cinematicas/cinematica_final.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/image_Sprite/Cinematicas/cinematica_final.mp4.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/image_Sprite/Cinematicas/seconde_cinematic.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/image_Sprite/Cinematicas/seconde_cinematic.mp4.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Chandelier.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Chandelier.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Door_V3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Door_V3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Elevator.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Elevator.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/MorgueWheelBed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/MorgueWheelBed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Suspension.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Abandoned_Asylum/Materials/Suspension.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/Door (1).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/Door (1).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CREDITS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CREDITS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CinematicaInicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CinematicaInicial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAMEOVER.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GAMEOVER.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/INSTRUCTIONS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/INSTRUCTIONS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MENU UI 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MENU UI 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DoorsWithLock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DoorsWithLock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptInventory/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image_Sprite/cinematicaInicial.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image_Sprite/cinematicaInicial.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image_Sprite/Cinematicas/cinematica_1.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +134,7 @@
       <workItem from="1688136095258" duration="595000" />
       <workItem from="1688153243638" duration="7013000" />
       <workItem from="1688194030386" duration="1106000" />
-      <workItem from="1688243054564" duration="11151000" />
+      <workItem from="1688243054564" duration="11864000" />
     </task>
     <servers />
   </component>
