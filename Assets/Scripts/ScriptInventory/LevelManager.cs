@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
     
 {
-    
+    public float delayTime = 5f; //pam
 
 
     // Start is called before the first frame update
@@ -38,12 +38,18 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    public void StartGame()
+    public void PlayCinematica()
     {
-        SceneManager.LoadScene(3);
+        StartCoroutine(LoadSceneWithDelay()); //pame
+        //SceneManager.LoadScene(5);
     }
 
+   private IEnumerator LoadSceneWithDelay() //pam
+    {
+        yield return new WaitForSeconds(delayTime);
 
+        SceneManager.LoadScene(5);
+    }
 
 
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0040211664, g: 0.00021951027, b: 0.000000053431894, a: 1}
+  m_IndirectSpecularColor: {r: 0.07491038, g: 0.0700107, b: 0.053289153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -171,7 +171,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.6698113, g: 0.54663044, b: 0.22369166, a: 1}
+  m_Color: {r: 0.9433962, g: 0.9369008, b: 0.9202563, a: 1}
   m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
@@ -229,14 +229,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144551514}
-  m_LocalRotation: {x: -0.53261465, y: -0, z: -0, w: 0.84635794}
+  m_LocalRotation: {x: 0.9935719, y: -0, z: -0, w: -0.11320323}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -64.365, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 193, y: 0, z: 0}
 --- !u!1 &1176911787
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +892,7 @@ GameObject:
   - component: {fileID: 3489677825405638544}
   - component: {fileID: 3489677825405638551}
   - component: {fileID: 3489677825405638545}
+  - component: {fileID: 3489677825405638552}
   m_Layer: 5
   m_Name: BackCinematica
   m_TagString: Untagged
@@ -949,6 +950,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3489677825405638552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489677825405638549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6b59311193b464182333e46825f16a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 0c9d9b66f2f83f740afef43b04e7d6b9, type: 3}
 --- !u!1 &3555419059486559807
 GameObject:
   m_ObjectHideFlags: 0
@@ -49096,6 +49110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 303f6d8442f9a0f48a9bd88eeb6fc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayTime: 5
 --- !u!4 &3813816091928629880
 Transform:
   m_ObjectHideFlags: 0
@@ -59353,6 +59368,7 @@ GameObject:
   - component: {fileID: 4772328716855802987}
   - component: {fileID: 4772328716855802986}
   - component: {fileID: 4772328716855802989}
+  - component: {fileID: 4772328716855802992}
   m_Layer: 5
   m_Name: PlayGame
   m_TagString: Untagged
@@ -59360,6 +59376,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4772328716855802992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4772328716855802991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6b59311193b464182333e46825f16a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 0c9d9b66f2f83f740afef43b04e7d6b9, type: 3}
 --- !u!95 &5101076358835736905
 Animator:
   serializedVersion: 5
@@ -59618,6 +59647,7 @@ GameObject:
   - component: {fileID: 6524417339783796882}
   - component: {fileID: 6524417339783796883}
   - component: {fileID: 6524417339783796881}
+  - component: {fileID: 6524417339783796886}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -59625,6 +59655,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6524417339783796886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524417339783796885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6b59311193b464182333e46825f16a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 0c9d9b66f2f83f740afef43b04e7d6b9, type: 3}
 --- !u!1 &6543658886976757518
 GameObject:
   m_ObjectHideFlags: 0
