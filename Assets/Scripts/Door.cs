@@ -5,9 +5,11 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public GameObject intText;
+    
     public bool interactable, toggle;
     public Animator doorAnim;
     public AudioSource toggleSound;
+    
 
     void OnTriggerStay(Collider other)
     {

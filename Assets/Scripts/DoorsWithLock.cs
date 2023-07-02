@@ -31,7 +31,7 @@ public class DoorsWithLock : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Reach")
+        if (other.CompareTag("MainCamera"))
         {
             inReach = true;
             openText.SetActive(true);
@@ -40,7 +40,7 @@ public class DoorsWithLock : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Reach")
+        if (other.CompareTag("MainCamera"))
         {
             inReach = false;
             openText.SetActive(false);
@@ -53,7 +53,7 @@ public class DoorsWithLock : MonoBehaviour
 
     void Update()
     {
-        if(KeyINV.activeInHierarchy)
+        if(KeyINV == false)
         {
             locked = false;
             hasKey = true;
@@ -64,7 +64,7 @@ public class DoorsWithLock : MonoBehaviour
             hasKey = false;
         }
 
-        if (hasKey && inReach && Input.GetButtonDown("Interact"))
+        if (hasKey && inReach && Input.GetKeyDown(KeyCode.E))  //Input.GetKeyDown(KeyCode.E
         {
             unlocked = true;
             DoorOpens();
@@ -75,9 +75,10 @@ public class DoorsWithLock : MonoBehaviour
             DoorCloses();
         }
 
-        if (locked && inReach && Input.GetButtonDown("Interact"))
+        if (locked && inReach && Input.GetKeyDown(KeyCode.E))
         {
             lockedSound.Play();
+            //openText.SetActive(true);
             
         }
 
@@ -87,10 +88,10 @@ public class DoorsWithLock : MonoBehaviour
     }
     void DoorOpens ()
     {
-        if (unlocked)
+        if (unlocked )
         {
-            door.SetBool("Open", true);
-            door.SetBool("Closed", false);
+            door.SetBool("open", true);//doorAnim.SetTrigger
+            door.SetBool("close", false);//doorAnim.ResetTrigger
             doorSound.Play();
         }
 
@@ -100,8 +101,8 @@ public class DoorsWithLock : MonoBehaviour
     {
         if (unlocked)
         {
-            door.SetBool("Open", false);
-            door.SetBool("Closed", true);
+            door.SetBool("open", false);//doorAnim.ResetTrigger
+            door.SetBool("close", true);//doorAnim.SetTrigger
         }
 
     }
