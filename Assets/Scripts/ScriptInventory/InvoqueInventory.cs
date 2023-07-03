@@ -37,6 +37,12 @@ public class InvoqueInventory : MonoBehaviour
             Destroy(other.gameObject);
 
         }
+    if (other.tag == "Key")
+        {
+
+            Destroy(other.gameObject);
+
+        }
 
     }
 }
