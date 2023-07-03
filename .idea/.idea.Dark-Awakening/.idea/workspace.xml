@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/SpecialElite-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpScare.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyPad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenKeyPad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptInventory/FinalCondition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2RMdMk3ExJsZb4ouuN5y3Ad2dJQ" />
@@ -110,7 +109,7 @@
       <workItem from="1688243054564" duration="11864000" />
       <workItem from="1688359334039" duration="168000" />
       <workItem from="1688359541299" duration="2029000" />
-      <workItem from="1688365544835" duration="2506000" />
+      <workItem from="1688365544835" duration="3586000" />
     </task>
     <servers />
   </component>
