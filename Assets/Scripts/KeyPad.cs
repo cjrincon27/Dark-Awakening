@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +12,7 @@ public class KeyPad : MonoBehaviour
     public GameObject inv;
 
 
-    public GameObject animateOB;
+    public Animator animateOB;
     public Animator ANI;
 
 
@@ -74,9 +75,10 @@ public class KeyPad : MonoBehaviour
 
     public void Update()
     {
-        if (textOB.text == "Right" && animate)
+        if (textOB.text == "Right" )//&& animate
         {
-            ANI.SetBool("animate", true);
+            ANI.SetBool("open", true);
+            animateOB.SetBool("open", true);
             Debug.Log("its open");
         }
 

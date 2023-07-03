@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/FinalDoor 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/FinalDoor 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyPad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyPad.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +113,7 @@
       <workItem from="1688359334039" duration="168000" />
       <workItem from="1688359541299" duration="2029000" />
       <workItem from="1688365544835" duration="3586000" />
+      <workItem from="1688413076881" duration="3757000" />
     </task>
     <servers />
   </component>
