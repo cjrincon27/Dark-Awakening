@@ -23,15 +23,28 @@ public class InteractionFinal : MonoBehaviour
             intText.SetActive(false);
             interactable = false;
         }
+        
+    }
 
-        void Update()
+    void Update()
+    { 
+        if (interactable == true)
+      
         {
-
-            if (Input.GetKeyDown(KeyCode.E))
+           
+         if (Input.GetKeyDown(KeyCode.E))
+             
             {
-                gameObjectToActive.SetActive(true);
+                toggle = !toggle;
+                if (toggle == true)
+                {
+                    gameObjectToActive.SetActive(true);
+                }
+                
+                intText.SetActive(false);
+                interactable = false; 
             }
-
+        
         }
     }
 }
