@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FlashLight : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class FlashLight : MonoBehaviour
     public AudioSource dischargeSound;
     private int purpleLightCount;
     private bool isPurpleLightAvailable;
+    public Text flashlightUsageText;
 
     void Start()
     {
@@ -19,6 +21,8 @@ public class FlashLight : MonoBehaviour
 
         light.SetActive(false);
         purplelight.SetActive(false);
+
+        flashlightUsageText.text = "Remaining : " + (4 - purpleLightCount).ToString();
     }
 
     void Update()
@@ -79,6 +83,7 @@ public class FlashLight : MonoBehaviour
         {
             purplelight.SetActive(true);
             purpleLightCount++;
+            flashlightUsageText.text = "Remaining : " + (4 - purpleLightCount).ToString();
         }
     }
 }
