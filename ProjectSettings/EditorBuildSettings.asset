@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CinematicaInicial.unity
     guid: 2c2f7a4a6c15df545a67047b76fc05cd
+  - enabled: 1
+    path: Assets/Scenes/CinematicaFinal_Externa.unity
+    guid: 274917235df42444ea61b35ac9f40f9d
   m_configObjects: {}
