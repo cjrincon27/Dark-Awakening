@@ -8,7 +8,7 @@ public class FPSController : MonoBehaviour
 {
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
-    //public float jumpSpeed = 8.0f;
+    public float jumpSpeed = 1.0f;
     public float gravity = 20.0f;
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
@@ -70,14 +70,14 @@ public class FPSController : MonoBehaviour
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
         
 
-       // if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
-       // {
-       //     moveDirection.y = jumpSpeed;
-       // }
-       // else
-       // {
-       //     moveDirection.y = movementDirectionY;
-       // }
+        if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
+        {
+            moveDirection.y = jumpSpeed;
+       }
+        else
+       {
+            moveDirection.y = movementDirectionY;
+        }
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below = Aplicar la gravedad. "gravity" se multiplica por "deltaTime" dos veces (una aquí, y otra abajo)
         // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied = cuando moveDirection se multiplica por deltaTime). Esto se debe a que la gravedad debe aplicarse
