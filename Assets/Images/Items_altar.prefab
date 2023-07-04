@@ -236,7 +236,6 @@ GameObject:
   - component: {fileID: 5800651522376238835}
   - component: {fileID: 5800651522376238834}
   - component: {fileID: 5800651522376238833}
-  - component: {fileID: 5800651522376238832}
   m_Layer: 0
   m_Name: Candlestick
   m_TagString: Item
@@ -278,7 +277,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &5800651522376238834
 BoxCollider:
@@ -307,23 +306,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &5800651522376238832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651522376238798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 5
-  type: Cursed Objects
-  descripcion: Candle2
-  icon: {fileID: 21300000, guid: 9528fc4da3b605b4d852b2fc11cf93dc, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651522416746249
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5800651522493877101
 Transform:
   m_ObjectHideFlags: 0
@@ -497,7 +479,6 @@ GameObject:
   - component: {fileID: 5800651522569286750}
   - component: {fileID: 5800651522569286749}
   - component: {fileID: 5800651522569286748}
-  - component: {fileID: 5800651522569286747}
   m_Layer: 0
   m_Name: Candle
   m_TagString: Item
@@ -586,7 +567,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &5800651522569286749
 BoxCollider:
@@ -615,23 +596,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 21c30a3c7192a0649813ca3fe2cdb009, type: 3}
---- !u!114 &5800651522569286747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651522569286745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 2
-  type: Cursed Objects
-  descripcion: Candle
-  icon: {fileID: 21300000, guid: 9528fc4da3b605b4d852b2fc11cf93dc, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651522584717351
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +609,6 @@ GameObject:
   - component: {fileID: 5800651522584717356}
   - component: {fileID: 5800651522584717355}
   - component: {fileID: 5800651522584717354}
-  - component: {fileID: 5800651522584717353}
   m_Layer: 0
   m_Name: Skull
   m_TagString: Item
@@ -734,7 +697,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &5800651522584717354
 BoxCollider:
@@ -749,23 +712,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 19.225008, y: 14.75031, z: 7.8707833}
   m_Center: {x: 0.4247522, y: 0.0000018472163, z: -0.673424}
---- !u!114 &5800651522584717353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651522584717351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 1
-  type: Cursed Objects
-  descripcion: Skull
-  icon: {fileID: 21300000, guid: 2a8a060cbe5647f428ad323c87726605, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651522621941542
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,7 +859,6 @@ GameObject:
   - component: {fileID: 5800651522677676386}
   - component: {fileID: 5800651522677676385}
   - component: {fileID: 5800651522677676384}
-  - component: {fileID: 5800651522677676415}
   m_Layer: 0
   m_Name: Candlestick (2)
   m_TagString: Item
@@ -955,7 +900,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &5800651522677676385
 BoxCollider:
@@ -984,23 +929,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &5800651522677676415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651522677676413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 7
-  type: Cursed Objects
-  descripcion: Candle2
-  icon: {fileID: 21300000, guid: 9528fc4da3b605b4d852b2fc11cf93dc, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651522690919099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,7 +943,6 @@ GameObject:
   - component: {fileID: 5800651522690919072}
   - component: {fileID: 5800651522690919103}
   - component: {fileID: 5800651522690919102}
-  - component: {fileID: 5800651522690919101}
   m_Layer: 0
   m_Name: Candle (1)
   m_TagString: Item
@@ -1104,7 +1031,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &5800651522690919103
 BoxCollider:
@@ -1133,23 +1060,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 21c30a3c7192a0649813ca3fe2cdb009, type: 3}
---- !u!114 &5800651522690919101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651522690919099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 3
-  type: Cursed Objects
-  descripcion: Candle
-  icon: {fileID: 21300000, guid: 9528fc4da3b605b4d852b2fc11cf93dc, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651522702628202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,7 +1207,6 @@ GameObject:
   - component: {fileID: 5800651522711504128}
   - component: {fileID: 5800651522711504159}
   - component: {fileID: 5800651522711504158}
-  - component: {fileID: 5800651522711504157}
   m_Layer: 0
   m_Name: Candlestick (1)
   m_TagString: Item
@@ -1339,7 +1248,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &5800651522711504159
 BoxCollider:
@@ -1368,23 +1277,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &5800651522711504157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651522711504155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 6
-  type: Cursed Objects
-  descripcion: Candle2
-  icon: {fileID: 21300000, guid: 9528fc4da3b605b4d852b2fc11cf93dc, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651522766945662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,7 +1426,6 @@ GameObject:
   - component: {fileID: 5800651522918869710}
   - component: {fileID: 5800651522918869709}
   - component: {fileID: 5800651522918869708}
-  - component: {fileID: 5800651522918869707}
   m_Layer: 0
   m_Name: Candle (2)
   m_TagString: Item
@@ -1623,7 +1514,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &5800651522918869709
 BoxCollider:
@@ -1652,23 +1543,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 21c30a3c7192a0649813ca3fe2cdb009, type: 3}
---- !u!114 &5800651522918869707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651522918869705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 4
-  type: Cursed Objects
-  descripcion: Candle
-  icon: {fileID: 21300000, guid: 9528fc4da3b605b4d852b2fc11cf93dc, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651522955197694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,7 +2211,6 @@ GameObject:
   - component: {fileID: 5800651523456270005}
   - component: {fileID: 5800651523456270004}
   - component: {fileID: 5800651523456270003}
-  - component: {fileID: 5800651523456270002}
   m_Layer: 0
   m_Name: rust_key
   m_TagString: Item
@@ -2452,25 +2325,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &5800651523456270002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5800651523456270000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dfc24e7267a4d04eaf9a03552f90c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 8
-  type: Cursed Objects
-  descripcion: Key
-  icon: {fileID: 21300000, guid: d0cde0cdf4a8dbc4f8de4d1905fe12a7, type: 3}
-  pickedUp: 0
 --- !u!1 &5800651523525049044
 GameObject:
   m_ObjectHideFlags: 0
