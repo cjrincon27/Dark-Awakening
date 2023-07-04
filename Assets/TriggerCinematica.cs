@@ -2,39 +2,61 @@ using UnityEngine;
 
 public class TriggerCinematica : MonoBehaviour
 {
-    public GameObject canvasObject; // Reference to the canvas GameObject in the scene
-    public float timeLimit = 6f; // Time limit in seconds
+    public GameObject canvasObject; // Referencia al GameObject del canvas en la escena
+    public float timeLimit = 6f; // Límite de tiempo en segundos
     private bool canvasActive = false;
+    private bool canActivate = true; // Control para permitir la activación solo una vez
     private float timer = 0f;
 
     private void Update()
     {
-        // Check if the canvas is active
+        // Comprobar si el canvas está activo
         if (canvasActive)
         {
-            // Increment the timer
+            // Incrementar el temporizador
             timer += Time.deltaTime;
 
-            // Check if the time limit has been exceeded
+            // Comprobar si se ha excedido el límite de tiempo
             if (timer >= timeLimit)
             {
-                // Deactivate the canvas
-                canvasObject.SetActive(false);
-                canvasActive = false;
+                // Desactivar el canvas
+                DeactivateCanvas();
+            }
+        }
+
+        // Comprobar si se presionó la tecla Espacio
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // Desactivar el canvas
+            if (canvasActive)
+            {
+                DeactivateCanvas();
             }
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (canActivate && other.CompareTag("Player"))
         {
-            // Activate the canvas
-            canvasObject.SetActive(true);
-            canvasActive = true;
+            // Activar el canvas
+            ActivateCanvas();
 
-            // Reset the timer
-            timer = 0f;
+            // Deshabilitar la activación posterior
+            canActivate = false;
         }
+    }
+
+    private void ActivateCanvas()
+    {
+        canvasObject.SetActive(true);
+        canvasActive = true;
+        timer = 0f;
+    }
+
+    private void DeactivateCanvas()
+    {
+        canvasObject.SetActive(false);
+        canvasActive = false;
     }
 }
