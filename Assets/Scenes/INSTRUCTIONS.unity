@@ -3236,7 +3236,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jump
+  m_text: Escape attack
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70170afd789f8254ea2ced18bdadc110, type: 2}
   m_sharedMaterial: {fileID: -3757448976224928203, guid: 70170afd789f8254ea2ced18bdadc110, type: 2}
