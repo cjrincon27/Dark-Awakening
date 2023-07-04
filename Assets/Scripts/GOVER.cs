@@ -5,15 +5,57 @@ using UnityEngine.SceneManagement;
 
 public class GOVER : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public GameObject canvasObject; // Referencia al GameObject del canvas en la escena
+    public int requiredSpacePresses = 5; // Número de veces que se debe presionar la barra espaciadora
+    public float timeLimit = 6f; // Límite de tiempo en segundos
+    private bool canvasActive = false;
+    private int spacePresses = 0;
+    private float timer = 0f;
+
+    private void Update()
     {
-        if (other.tag == "Player")
+        // Verificar si el canvas está activo
+        if (canvasActive)
         {
-            SceneManager.LoadScene("GAMEOVER"); 
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            // Incrementar el temporizador
+            timer += Time.deltaTime;
+
+            // Verificar si se ha excedido el tiempo límite
+            if (timer >= timeLimit)
+            {
+                // Ir a otra escena
+                SceneManager.LoadScene("GAMEOVER");
+            }
+            else
+            {
+                // Verificar si se ha presionado la barra espaciadora
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    spacePresses++;
+
+                    // Verificar si se han alcanzado las veces requeridas
+                    if (spacePresses >= requiredSpacePresses)
+                    {
+                        // Desactivar el canvas
+                        canvasObject.SetActive(false);
+                        canvasActive = false;
+                    }
+                }
+            }
         }
-        
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            // Activar el canvas
+            canvasObject.SetActive(true);
+            canvasActive = true;
+
+            // Reiniciar las variables
+            spacePresses = 0;
+            timer = 0f;
+        }
+    }
 }
