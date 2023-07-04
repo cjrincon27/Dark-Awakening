@@ -71,6 +71,8 @@ public class KeyPad : MonoBehaviour
         inv.SetActive(true);
         hud.SetActive(true);
         player.GetComponent<FPSController>().enabled = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Update()
@@ -91,7 +93,7 @@ public class KeyPad : MonoBehaviour
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
-
+       
     }
 
 
