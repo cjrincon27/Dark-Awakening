@@ -24,7 +24,7 @@ public class KeyPad : MonoBehaviour
     public AudioSource wrong;
    
 
-    public bool animate;
+    //public bool animate;
 
 
     void Start()
@@ -40,7 +40,7 @@ public class KeyPad : MonoBehaviour
         button.Play();
     }
 
-    public void Execute()
+    public void Execute() // si lo que se escriba esta en la respuesta puesta antes
     {
         if (textOB.text == answer)
         {
