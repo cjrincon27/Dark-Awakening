@@ -7,6 +7,7 @@ public class InteractionFinal : MonoBehaviour
     public GameObject gameObjectToActive;
     public GameObject intText;
     public bool interactable, toggle;
+    public AudioSource toggleSound;
     void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("MainCamera"))
@@ -36,6 +37,8 @@ public class InteractionFinal : MonoBehaviour
              
             {
                 toggle = !toggle;
+                toggleSound.Play();
+                
                 if (toggle == true)
                 {
                     gameObjectToActive.SetActive(true);
