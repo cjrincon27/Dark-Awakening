@@ -25,6 +25,8 @@ public class GOVER : MonoBehaviour
             {
                 // Ir a otra escena
                 SceneManager.LoadScene("GAMEOVER");
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
             else
             {
