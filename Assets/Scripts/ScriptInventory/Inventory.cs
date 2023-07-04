@@ -27,7 +27,7 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i < allSlots; i++)
         {
             slot[i] = slotHolder.transform.GetChild(i).gameObject;
-            if (slot[i].GetComponent<Slot>().item == null)
+            //if (slot[i].GetComponent<Slot>().item == null)
             {
                 slot[i].GetComponent<Slot>().empty = true;
             }
@@ -151,7 +151,12 @@ public class Inventory : MonoBehaviour
         foreach (ItemData item in itemsToLoad)
         {
             var itemObject = new GameObject();
-            AddItem(itemObject, item.ID, item.type, item.descripcion, item.icon);
+            if(item.ID != 0)
+            {
+                AddItem(itemObject, item.ID, item.type, item.descripcion, item.icon);
+                DataManager.Instance.LoadDAta(item.ID);
+            }
+            
         }
 
     }

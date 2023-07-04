@@ -8,8 +8,10 @@ using UnityEngine;
     {
         public List<ItemData> inventory;
         public static DataManager Instance;
+        public event Action<int> OnDataLoad;
+       
 
-        
+
 
 
         private void Awake()
@@ -37,6 +39,10 @@ using UnityEngine;
         public List<ItemData> LoadInventory()
         {
             return inventory;
+        }
+        public void LoadDAta(int ID)
+        {
+            OnDataLoad?.Invoke(ID);
         }
     }
 
