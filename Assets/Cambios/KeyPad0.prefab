@@ -2286,7 +2286,6 @@ MonoBehaviour:
   button: {fileID: 2946614662840897616}
   correct: {fileID: 2946614663825039718}
   wrong: {fileID: 2946614664288233505}
-  animate: 0
 --- !u!1 &2946614663825039716
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,9 +4063,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8851100804235202124}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 41.026, y: 2.019, z: -27.618}
-  m_LocalScale: {x: 0.3008727, y: 0.3008727, z: 0.3008727}
+  m_LocalScale: {x: 0.15043636, y: 0.15043636, z: 0.15043636}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1984742802713648477}
