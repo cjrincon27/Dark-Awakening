@@ -5,14 +5,12 @@ using UnityEngine.AI;
 
 public class EnemyControllerCursed : MonoBehaviour
 {
-    /*
-     * He intentado hacer el código lo más simple posible para que sea entendible para aquellos que no sepan de programación o estén iniciándose.
-     */
+   
 
     public NavMeshAgent navMeshAgent;
     public GameObject player;
     public GameObject[] destinations; // Usa un array de destinos para poder asignar tantos destinos como desees (excepto el jugador)
-    public const float distanceToFollowPlayer = 30f; // Distancia a la que empezará a seguir al jugador (dependerá de la escala de vuestro escenario, modificable desde el Editor de Unity)
+    public const float distanceToFollowPlayer = 10f; // Distancia a la que empezará a seguir al jugador (dependerá de la escala de vuestro escenario, modificable desde el Editor de Unity)
     Vector3 currentTarget; // Almacena el objetivo actual al que se dirige (incluirá al jugador)
     int currentDestination = 0; // Controla el destino actual al que se dirige (del array de destinos)
 
