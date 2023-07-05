@@ -38,6 +38,10 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
     public void PlayCinematica()
     {
         StartCoroutine(LoadSceneWithDelay()); //pame
