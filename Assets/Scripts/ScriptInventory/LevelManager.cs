@@ -56,8 +56,9 @@ public class LevelManager : MonoBehaviour
    private IEnumerator LoadSceneWithDelay() //pam
     {
         yield return new WaitForSeconds(delayTime);
-
         SceneManager.LoadScene(5);
+
+
     }
 
 
