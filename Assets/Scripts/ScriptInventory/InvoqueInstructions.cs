@@ -37,8 +37,8 @@ public class InvoqueInstructions : MonoBehaviour
             {
                 canvasPause = !canvasPause;
             }
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            Cursor.lockState = canvasPause ? CursorLockMode.None : CursorLockMode.Locked;
+            Cursor.visible = canvasPause;
         }
 
         pauseCanvas.gameObject.SetActive(canvasPause && !canvasInstructionsActive);

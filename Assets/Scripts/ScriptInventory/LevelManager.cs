@@ -41,6 +41,11 @@ public class LevelManager : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+
+    }
+    public void SceneLoading()
+    {
+        SceneManager.LoadScene(7);
     }
     public void PlayCinematica()
     {
