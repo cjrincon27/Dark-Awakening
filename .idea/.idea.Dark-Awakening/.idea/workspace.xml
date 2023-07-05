@@ -4,89 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/AmbientOcclusionMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/AmbientOcclusionMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Block.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Block.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Captura de pantalla 2023-06-28 112202.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Captura de pantalla 2023-06-28 112202.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/DisplacementMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/DisplacementMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items_altar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items_altar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/KeypadGUI.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/KeypadGUI.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (1).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (2).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (3).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (4).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap (5).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap_pergamino.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/NormalMap_pergamino.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/PatrollPointsRoof.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/PatrollPointsRoof.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Stairs.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Stairs.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blond.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blood.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blood_wall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blood_wall.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/escurriendo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/escurriendo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/hand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/hand.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/hand_material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/hand_material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/loading....mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/loading....mp4.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha (1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha (1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante_2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/mancha_brillante_2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/monster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/monster.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/monstruo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/monstruo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/pared.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/pared.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/pergaminitos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/pergaminitos.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/pergaminos.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/pergaminos.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/splatter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/splatter.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/splatter_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/splatter_dark.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/splitter.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/splitter.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/videoloadinfg.renderTexture" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/videoloadinfg.renderTexture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamiloRomero.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpScare.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpScare.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/running-on-stair.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/running-on-stair.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/scream-in-pain.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/scream-in-pain.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/zombie-breathing.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/zombie-breathing.wav.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +111,7 @@
       <workItem from="1688359541299" duration="2029000" />
       <workItem from="1688365544835" duration="3586000" />
       <workItem from="1688413076881" duration="7752000" />
-      <workItem from="1688501147739" duration="4956000" />
+      <workItem from="1688501147739" duration="5552000" />
     </task>
     <servers />
   </component>
