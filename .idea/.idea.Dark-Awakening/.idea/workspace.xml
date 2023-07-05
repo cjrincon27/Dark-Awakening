@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door4.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door4.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cambios/Canvas_jumpscare.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cambios/Canvas_jumpscare.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
-    </list>
+    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +113,7 @@
       <workItem from="1688413076881" duration="7752000" />
       <workItem from="1688501147739" duration="5552000" />
       <workItem from="1688532569133" duration="833000" />
-      <workItem from="1688565839281" duration="615000" />
+      <workItem from="1688565839281" duration="1185000" />
     </task>
     <servers />
   </component>
