@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="" />
+    <list default="true" id="06dd989e-540e-46d3-be7d-96aeb3e3a4de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dark-Awakening/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door3close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door3close.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door6.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door6.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door6close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimations/door6close.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Goalkeeper Scoop (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Goalkeeper Scoop (1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cambios/DialogueTrigers.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cambios/DialogueTrigers.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cambios/JumpscareTrigers .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cambios/JumpscareTrigers .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MaincharacterCr.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/InteractionFinal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimActive.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiaryInt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlashLight.cs" root0="FORCE_HIGHLIGHTING" />
@@ -20,7 +30,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenKeyPad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptInventory/FinalCondition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TriggerCinematica.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2RMdMk3ExJsZb4ouuN5y3Ad2dJQ" />
   <component name="ProjectViewState">
@@ -113,7 +122,7 @@
       <workItem from="1688413076881" duration="7752000" />
       <workItem from="1688501147739" duration="5552000" />
       <workItem from="1688532569133" duration="833000" />
-      <workItem from="1688565839281" duration="1185000" />
+      <workItem from="1688565839281" duration="1656000" />
     </task>
     <servers />
   </component>
