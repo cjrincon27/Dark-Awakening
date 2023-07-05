@@ -8,6 +8,7 @@ public class InteractionFinal : MonoBehaviour
     public GameObject gameObjectToActive;
     public GameObject intText;
     public bool interactable, toggle;
+    public AudioSource toggleSound;
 
     private bool activateCinematic = false; //pame
 
@@ -40,6 +41,7 @@ public class InteractionFinal : MonoBehaviour
 
             {
                 toggle = !toggle;
+                toggleSound.Play();
                 if (toggle == true)
                 {
                     gameObjectToActive.SetActive(true);

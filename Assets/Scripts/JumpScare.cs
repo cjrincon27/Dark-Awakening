@@ -36,6 +36,6 @@ public class JumpScare : MonoBehaviour
     {
         yield return new WaitForSeconds(5.0f);
         JumpScareImg.SetActive(false);
-        Destroy(JumpScareImg);
+        //Destroy(JumpScareImg);
     }
 }

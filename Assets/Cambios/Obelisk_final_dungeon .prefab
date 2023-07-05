@@ -466,6 +466,7 @@ MonoBehaviour:
   intText: {fileID: 0}
   interactable: 0
   toggle: 0
+  toggleSound: {fileID: 8050247089032288588}
 --- !u!82 &8050247089032288588
 AudioSource:
   m_ObjectHideFlags: 0
