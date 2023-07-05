@@ -7,6 +7,7 @@ public class JumpScare : MonoBehaviour
 {
     public GameObject JumpScareImg;
     public AudioSource audioSource;
+     
 
     private bool isPlayed = false;
 
@@ -33,7 +34,8 @@ public class JumpScare : MonoBehaviour
 
     IEnumerator DisableImg()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(5.0f);
         JumpScareImg.SetActive(false);
+        Destroy(JumpScareImg);
     }
 }
